@@ -12,7 +12,7 @@ jobs:
        run: |
         cd /home/ubuntu/nodebb/node_modules
         rm -rf nodebb-plugin-youtube
-        git clone https://github.com/stelladream/nodebb-plugin-youtube.git
+        git clone https://github.com/jsK1779/nodebb-plugin-youtube.git
 
      - name: Install plugin and restart NodeBB
        run: |
